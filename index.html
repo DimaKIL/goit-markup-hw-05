@@ -24,15 +24,15 @@
         <nav class="menu-nav">
           
           <ul class="menu list">
-            <li class="menu-link"><a href="./index.html" class="link">Студия</a></li>
-            <li class="menu-link"><a href="./portfolio.html" class="link">Портфолио</a></li>
-            <li class="menu-link"><a href="./index.html" class="link">Контакты</a></li>
+            <li class="menu-link"><a href="./index.html" class="link anim-link active">Студия</a></li>
+            <li class="menu-link"><a href="./portfolio.html" class="link anim-link">Портфолио</a></li>
+            <li class="menu-link"><a href="./index.html" class="link anim-link">Контакты</a></li>
           </ul>
         </nav>
   
         <ul class="header-contact list">
           <li class="header-li-icon mail-mail">
-            <a class="link link-link" href="mailto:info@devstudio.com"> 
+            <a class="link anim-link" href="mailto:info@devstudio.com"> 
               <svg class="icon-mail">
                 <use href="./imeges/icon.svg#mail-icon"></use>
               </svg>
@@ -40,7 +40,7 @@
             </a>
           </li>
           <li class="header-li-icon tel-tel">
-            <a class="link link-link" href="tel:+380961111111">
+            <a class="link link-link anim-link" href="tel:+380961111111">
               <svg class="icon-tel">
                 <use href="./imeges/icon.svg#tel-icon"></use>
               </svg>
@@ -107,13 +107,27 @@
         <h2 class="lessons-h">Чем мы занимаемся</h2>
         <ul class="lessons-ul list">
           <li class="lessons-ul-li">
+            <div class="decor-yap">
             <a href=""><img src="./imeges/img1.jpg" alt="Верстка" width="370"/></a>
+            <div class="decor-dou">
+             <p class="press">ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ</p>
+            </div>
+          </div>
           </li>
           <li class="lessons-ul-li">
+            <div class="decor-yap">
             <a href=""><img src="./imeges/img2.jpg" alt="Дизайн" width="370"/></a>
+            <div class="decor-dou">
+             <p class="press">МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ</p>
+            </div>
           </li>
           <li class="lessons-ul-li">
+            <div class="decor-yap">
             <a href=""><img src="./imeges/img3.jpg" alt="оформление" width="370"/></a>
+            <div class="decor-dou">
+              <p class="press">ДИЗАЙНЕРСКИЕ РИШЕНИЯ</p>
+            </div>
+          </div>
           </li>
         </ul>
       </div>
@@ -281,42 +295,42 @@
         <h2 class="clients-h">Постоянные клиенты</h2>
         <ul class="clients-ul list">
           <li class="clients-li">
-            <a href="" class="clients-link">
+            <a href="" class="clients-anim clients-link">
               <svg class="logo1 clients-logo">
                 <use href="./imeges/icon.svg#logo1" width="106" height="60"></use>
               </svg>
             </a>
           </li>
           <li class="clients-li">
-            <a href="" class="clients-link">
+            <a href="" class="clients-anim clients-link">
               <svg class="logo2 clients-logo">
                 <use href="./imeges/icon.svg#logo2" width="106" height="60"></use>
               </svg>
             </a>
           </li>
           <li class="clients-li">
-            <a href="" class="clients-link">
+            <a href="" class="clients-anim clients-link">
               <svg class="logo3 clients-logo">
                 <use href="./imeges/icon.svg#logo3" width="106" height="60"></use>
               </svg>
             </a>
           </li>
           <li class="clients-li">
-            <a href="" class="clients-link">
+            <a href="" class="clients-anim clients-link">
               <svg class="logo4 clients-logo">
                 <use href="./imeges/icon.svg#logo4" width="106" height="60"></use>
               </svg>
             </a>
           </li>
           <li class="clients-li">
-            <a href="" class="clients-link">
+            <a href="" class="clients-anim clients-link">
               <svg class="logo5 clients-logo">
                 <use href="./imeges/icon.svg#logo5" width="106" height="60"></use>
               </svg>
             </a>
           </li>
           <li class="clients-li">
-          <a href="" class="clients-link">
+          <a href="" class="clients-anim clients-link">
             <svg class="logo6 clients-logo">
               <use href="./imeges/icon.svg#logo6" width="106" height="60"></use>
             </svg>
@@ -334,9 +348,9 @@
       <address class="contact-footer">
         <p class="adress">г. Киев, пр-т Леси Украинки, 26</p>
         <div class="f-mail">
-          <a href="mailto:info@devstudio.com" class="footer-mail">info@devstudio.com</a><br />
+          <a href="mailto:info@devstudio.com" class="footer-mail anim-link">info@devstudio.com</a><br />
           </div>
-        <a href="tel:+380961111111" class="footer-tel">+38 096 111 11 11</a><br />
+        <a href="tel:+380961111111" class="footer-tel anim-link">+38 096 111 11 11</a><br />
         </div>
         <div class="join">
           <p class="footer-p">ПРИСОЕДИНЯЙТЕСЬ</p>
@@ -355,14 +369,14 @@
                 </svg>
               </a>
             </li>
-            <li class="footer-icon-li">
+            <li class="footer-icon-li anim-link">
               <a href="#" class="footer-icon-link">
                 <svg class="footer-icon-svg" width="20" height="20">
                   <use href="./imeges/icon.svg#facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-icon-li">
+            <li class="footer-icon-li anim-link">
               <a href="#" class="footer-icon-link">
                 <svg class="footer-icon-svg" width="20" height="20">
                   <use href="./imeges/icon.svg#linkedin"></use>
@@ -374,5 +388,6 @@
       </div>
       </div>
     </footer>
+    <script src="./modal.js"></script>
   </body>
 </html>
